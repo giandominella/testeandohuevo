@@ -27,7 +27,8 @@ body{
 }
 
 #eggy img{
-    width: 75%;
+    width: 30%;
+    
     height: fit-content;
     position: absolute;
 }
