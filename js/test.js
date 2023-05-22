@@ -28,6 +28,40 @@ document.getElementById("herramientas-ropa").onclick = function(){
     document.getElementById("inside-ropa").style.display = "flex";
 }
 
+document.getElementById("ribbon-button").onclick = function(){
+    document.getElementById("inside-ropa").style.display = "none";
+    document.getElementById("inside-ribbon").style.display = "flex";
+}
+
+document.getElementById("sunglasses-button").onclick = function(){
+    document.getElementById("inside-ropa").style.display = "none";
+    document.getElementById("inside-sunglasses").style.display = "flex";
+}
+
+document.getElementById("back-ropa").onclick = function(){
+    document.getElementById("herramientas").style.display = "flex";
+    document.getElementById("inside-ropa").style.display = "none";
+}
+
+document.getElementById("back-ribbon").onclick = function(){
+    document.getElementById("inside-ropa").style.display = "flex";
+    document.getElementById("inside-ribbon").style.display = "none";
+}
+
+document.getElementById("back-sun").onclick = function(){
+    document.getElementById("inside-ropa").style.display = "flex";
+    document.getElementById("inside-sunglasses").style.display = "none";
+}
+
+document.getElementById("none-ribbon").onclick = function(){
+    document.getElementById("sinUsar-ribbon-rojo").style.display = "none";
+    document.getElementById("sinUsar-ribbon-aqua").style.display = "none";
+    document.getElementById("sinUsar-ribbon-azul").style.display = "none";
+    document.getElementById("sinUsar-ribbon-gold").style.display = "none";
+    document.getElementById("sinUsar-ribbon-naranja").style.display = "none";
+    document.getElementById("sinUsar-ribbon-violeta").style.display = "none";
+}
+
 document.getElementById("ribbon").onclick = function(){
     document.getElementById("sinUsar-ribbon-rojo").style.display = "flex";
     document.getElementById("sinUsar-ribbon-aqua").style.display = "none";
@@ -80,6 +114,42 @@ document.getElementById("ribbon-violeta").onclick = function(){
     document.getElementById("sinUsar-ribbon-naranja").style.display = "none";
     document.getElementById("sinUsar-ribbon-violeta").style.display = "flex";
 }
+
+document.getElementById("sunglasses-black").onclick = function(){
+    document.getElementById("sinUsar-sunglasses-black").style.display = "flex";
+    document.getElementById("sinUsar-sunglasses-aqua").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-gold").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-red").style.display = "none";
+}
+
+document.getElementById("sunglasses-aqua").onclick = function(){
+    document.getElementById("sinUsar-sunglasses-black").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-aqua").style.display = "flex";
+    document.getElementById("sinUsar-sunglasses-gold").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-red").style.display = "none";
+}
+
+document.getElementById("sunglasses-gold").onclick = function(){
+    document.getElementById("sinUsar-sunglasses-black").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-aqua").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-gold").style.display = "flex";
+    document.getElementById("sinUsar-sunglasses-red").style.display = "none";
+}
+
+document.getElementById("sunglasses-red").onclick = function(){
+    document.getElementById("sinUsar-sunglasses-black").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-aqua").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-gold").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-red").style.display = "flex";
+}
+
+document.getElementById("none-sun").onclick = function(){
+    document.getElementById("sinUsar-sunglasses-black").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-aqua").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-gold").style.display = "none";
+    document.getElementById("sinUsar-sunglasses-red").style.display = "none";
+}
+
 
 
 /*
